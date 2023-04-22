@@ -15,7 +15,7 @@ public class task_1 {
         String str = "";
         int index;
 
-        Boolean flag = true;
+        boolean flag = true;
         while (flag){
             System.out.println("Введите строку: ");
             str = sc.nextLine();
@@ -31,5 +31,6 @@ public class task_1 {
             }
             System.out.println(list);
         }
+        sc.close();
     }
 }
