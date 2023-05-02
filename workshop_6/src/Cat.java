@@ -1,5 +1,4 @@
 import java.util.Date;
-import java.util.TreeMap;
 
 public class Cat {
     private String name;
@@ -35,5 +34,4 @@ public class Cat {
     public void setVaccinations(boolean vaccination){
         this.vaccinations = vaccination;
     }
-
 }

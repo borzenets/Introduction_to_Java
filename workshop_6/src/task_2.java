@@ -7,7 +7,7 @@ import java.util.*;
 //процент уникальных чисел = количество уникальных чисел * 100 / общее количество чисел в массиве.
 public class task_2 {
     public static void main(String[] args) {
-        ArrayList myList = getRandomList(110, 70);
+        ArrayList<Integer> myList = getRandomList(110, 70);
         System.out.println(myList);
         System.out.printf("Процент уникальных значений: %.3f", getPercentageUnique(myList));
     }

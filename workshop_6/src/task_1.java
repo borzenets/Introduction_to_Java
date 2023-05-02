@@ -11,11 +11,11 @@ import java.util.TreeSet;
 // {1, 2, 30000, 2, 4, 5000, 6, 3}.  Распечатайте содержимое данного множества.
 public class task_1 {
     public static void main(String[] args) {
-        HashSet<Integer> myHeshSet = new HashSet<>(Arrays.asList(1, 2, 30000, 2, 4, 5000, 6, 3));
+        HashSet<Integer> myHashSet = new HashSet<>(Arrays.asList(1, 2, 30000, 2, 4, 5000, 6, 3));
         LinkedHashSet<Integer> myLinkedSet = new LinkedHashSet<>(Arrays.asList(1, 2, 30000, 2, 4, 5000, 6, 3));
         TreeSet<Integer> myTreeSet = new TreeSet<>(Arrays.asList(1, 2, 30000, 2, 4, 5000, 6, 3));
-        System.out.printf("HeshSet:       %s \n", myHeshSet);
-        System.out.printf("LinkedHeshSet: %s \n", myLinkedSet);
+        System.out.printf("HashSet:       %s \n", myHashSet);
+        System.out.printf("LinkedHashSet: %s \n", myLinkedSet);
         System.out.printf("TreeSet:       %s \n", myTreeSet);
     }
 }
